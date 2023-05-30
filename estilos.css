@@ -1,0 +1,71 @@
+.body {
+  font-family:arial,sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.google-contenedor {
+ vertical-align: middle;
+ align-items: center;
+ height: 30vh;
+}
+
+.google-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.logo {
+  width: 20%;
+  text-align: center;
+}
+
+.search-input {
+  margin-top: 30px;
+  height: 40px;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.search-estilo {
+   width: 32%;
+   height: 40px;
+   border-radius: 8px;
+   border: 1px solid #979595;
+}
+
+.botones {
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buscar-google {
+  width: 180px;
+  height: 30px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #3c4043;
+}
+
+.buscar-suerte {
+  width: 180px;
+  height: 30px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #3c4043;
+}
